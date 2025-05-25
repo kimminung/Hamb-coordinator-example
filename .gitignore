@@ -1,0 +1,20 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata/
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# 기타
+*.swp
+.DS_Store
+

@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		686D732A2DE30B3600FB21EB /* Assets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 686D73292DE30B3600FB21EB /* Assets.txt */; };
+		686D73372DE30FEB00FB21EB /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D73312DE30FEB00FB21EB /* Route.swift */; };
+		686D73382DE30FEB00FB21EB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D73332DE30FEB00FB21EB /* RootView.swift */; };
+		686D733A2DE3228F00FB21EB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D73392DE3228A00FB21EB /* Item.swift */; };
+		686D733C2DE322C200FB21EB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D733B2DE322BE00FB21EB /* HomeViewModel.swift */; };
+		686D733E2DE322DD00FB21EB /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D733D2DE322DA00FB21EB /* DetailViewModel.swift */; };
+		686D73442DE323C800FB21EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D73432DE323C200FB21EB /* HomeView.swift */; };
+		686D73462DE323DF00FB21EB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D73452DE323DD00FB21EB /* DetailView.swift */; };
+		686D735A2DE3272200FB21EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 686D73592DE3272200FB21EB /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		686D730A2DE309A000FB21EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +39,49 @@
 		686D72FA2DE3099F00FB21EB /* HambTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HambTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		686D73092DE309A000FB21EB /* HambTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686D73132DE309A000FB21EB /* HambTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HambTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		686D73292DE30B3600FB21EB /* Assets.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Assets.txt; sourceTree = "<group>"; };
+		686D73312DE30FEB00FB21EB /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		686D73332DE30FEB00FB21EB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		686D73392DE3228A00FB21EB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		686D733B2DE322BE00FB21EB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		686D733D2DE322DA00FB21EB /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		686D73432DE323C200FB21EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		686D73452DE323DD00FB21EB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		686D73592DE3272200FB21EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		686D72FC2DE3099F00FB21EB /* HambTest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HambTest;
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		686D73272DE30B3300FB21EB /* Exceptions for "HambTestUITests" folder in "HambTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.xcassets,
+			);
+			target = 686D72F92DE3099F00FB21EB /* HambTest */;
 		};
+		686D73282DE30B3300FB21EB /* Exceptions for "HambTestUITests" folder in "HambTestUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.xcassets,
+			);
+			target = 686D73122DE309A000FB21EB /* HambTestUITests */;
+		};
+		686D73492DE3241300FB21EB /* Exceptions for "App" folder in "HambTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoordinatorApp.swift,
+			);
+			target = 686D72F92DE3099F00FB21EB /* HambTest */;
+		};
+		686D734A2DE3241300FB21EB /* Exceptions for "App" folder in "HambTestUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoordinatorApp.swift,
+			);
+			target = 686D73122DE309A000FB21EB /* HambTestUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		686D730C2DE309A000FB21EB /* HambTestTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HambTestTests;
@@ -42,7 +89,28 @@
 		};
 		686D73162DE309A000FB21EB /* HambTestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				686D73272DE30B3300FB21EB /* Exceptions for "HambTestUITests" folder in "HambTest" target */,
+				686D73282DE30B3300FB21EB /* Exceptions for "HambTestUITests" folder in "HambTestUITests" target */,
+			);
+			explicitFolders = (
+				.xcassets,
+			);
 			path = HambTestUITests;
+			sourceTree = "<group>";
+		};
+		686D733F2DE3230900FB21EB /* Coordinators */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		686D73482DE3240800FB21EB /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				686D73492DE3241300FB21EB /* Exceptions for "App" folder in "HambTest" target */,
+				686D734A2DE3241300FB21EB /* Exceptions for "App" folder in "HambTestUITests" target */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +143,8 @@
 		686D72F12DE3099F00FB21EB = {
 			isa = PBXGroup;
 			children = (
-				686D72FC2DE3099F00FB21EB /* HambTest */,
+				686D73362DE30FEB00FB21EB /* HambTest */,
+				686D73292DE30B3600FB21EB /* Assets.txt */,
 				686D730C2DE309A000FB21EB /* HambTestTests */,
 				686D73162DE309A000FB21EB /* HambTestUITests */,
 				686D72FB2DE3099F00FB21EB /* Products */,
@@ -90,6 +159,47 @@
 				686D73132DE309A000FB21EB /* HambTestUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		686D73322DE30FEB00FB21EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				686D73312DE30FEB00FB21EB /* Route.swift */,
+				686D73392DE3228A00FB21EB /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		686D73342DE30FEB00FB21EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				686D73332DE30FEB00FB21EB /* RootView.swift */,
+				686D73432DE323C200FB21EB /* HomeView.swift */,
+				686D73452DE323DD00FB21EB /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		686D73352DE30FEB00FB21EB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				686D733B2DE322BE00FB21EB /* HomeViewModel.swift */,
+				686D733D2DE322DA00FB21EB /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		686D73362DE30FEB00FB21EB /* HambTest */ = {
+			isa = PBXGroup;
+			children = (
+				686D73592DE3272200FB21EB /* .gitignore */,
+				686D73322DE30FEB00FB21EB /* Models */,
+				686D73342DE30FEB00FB21EB /* Views */,
+				686D73352DE30FEB00FB21EB /* ViewModels */,
+				686D733F2DE3230900FB21EB /* Coordinators */,
+				686D73482DE3240800FB21EB /* App */,
+			);
+			path = HambTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +218,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				686D72FC2DE3099F00FB21EB /* HambTest */,
+				686D733F2DE3230900FB21EB /* Coordinators */,
 			);
 			name = HambTest;
 			packageProductDependencies = (
@@ -155,6 +265,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				686D73162DE309A000FB21EB /* HambTestUITests */,
+				686D73482DE3240800FB21EB /* App */,
 			);
 			name = HambTestUITests;
 			packageProductDependencies = (
@@ -212,6 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686D732A2DE30B3600FB21EB /* Assets.txt in Resources */,
+				686D735A2DE3272200FB21EB /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686D733A2DE3228F00FB21EB /* Item.swift in Sources */,
+				686D73462DE323DF00FB21EB /* DetailView.swift in Sources */,
+				686D733E2DE322DD00FB21EB /* DetailViewModel.swift in Sources */,
+				686D73372DE30FEB00FB21EB /* Route.swift in Sources */,
+				686D73382DE30FEB00FB21EB /* RootView.swift in Sources */,
+				686D73442DE323C800FB21EB /* HomeView.swift in Sources */,
+				686D733C2DE322C200FB21EB /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
